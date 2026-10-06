@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<title>Mentoria - Nova Fase Financeira</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Cinzel:wght@700&display=swap');
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .slide {
+    width: 1920px;
+    height: 1080px;
+    padding: 80px;
+    background: linear-gradient(135deg, #0D0D0D 0%, #1A1A1A 100%);
+    position: relative;
+    page-break-after: always;
+    border: 2px solid #D4AF37;
+    margin: 20px auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .logo-text {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: #D4AF37;
+    letter-spacing: 2px;
+  }
+  
+  .slogan-tag {
+    background: #D4AF37;
+    color: #000000;
+    padding: 8px 18px;
+    font-weight: 800;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 56px;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  
+  p, li {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #CCCCCC;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding-left: 35px;
+    position: relative;
+  }
+  
+  li::before {
+    content: "📈";
+    position: absolute;
+    left: 0;
+    color: #D4AF37;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #888888;
+    border-top: 1px solid #333333;
+    padding-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: CAPA -->
+<div class="slide">
+  <div class="header">
+    <div class="logo-text">FUNDAÇÃO DIGITALEVOCÊ</div>
+    <div class="slogan-tag">Nova Fase Financeira</div>
+  </div>
+  <div style="margin-top: 150px; text-align: center;">
+    <h1 style="font-size: 72px;">MENTORIA DE ALTA PERFORMANCE</h1>
+    <h2 style="color: #D4AF37; font-size: 40px; margin-top: 20px;">Como Desarmar o Sistema de Sobrevivência e Assumir o Governo da Sua Realidade</h2>
+    <p style="margin-top: 40px; font-size: 28px;">Mentor: Rodrigo Rodrigues</p>
+  </div>
+  <div class="footer">
+    <span>www.digitalevoce.com.br</span>
+    <span>Pivot Strategy & Governance</span>
+  </div>
+</div>
+
+<!-- SLIDE 2: CONCEITO DE GOVERNO -->
+<div class="slide">
+  <div class="header">
+    <div class="logo-text">FUNDAÇÃO DIGITALEVOCÊ</div>
+    <div class="slogan-tag">Nova Fase Financeira</div>
+  </div>
+  <h1>01. O Governo do Seu Dinheiro</h1>
+  <h2>Saindo do Modo Sobrevivência para o Modo Governança</h2>
+  <ul>
+    <li><b>A Mente Amadora:</b> Decisões tomadas na euforia (topo) ou no pânico (fundo).</li>
+    <li><b>Desarmar o Gatilho:</b> Dominar a ansiedade e os impulsos antes de boletar na B3.</li>
+    <li><b>A Mente de Governo:</b> Estratégia fria, proteção de capital e execução impecável.</li>
+  </ul>
+  <div class="footer">
+    <span>www.digitalevoce.com.br</span>
+    <span>Mentoria de Investimentos</span>
+  </div>
+</div>
+
+</body>
+</html>
